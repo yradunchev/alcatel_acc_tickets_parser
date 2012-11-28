@@ -1,0 +1,33 @@
+Project:  Alcatel OmniPCX Enterprise Accounting tickets processing
+Version 0.2
+Release date: 2012-03-21
+State: stable
+
+-------------------------------------------------------------------------------
+Description:
+
+Parse call data from Alcatel OmniPCX Enterpise account tickets in two files:
+
+- ocals.csv: outgoing calls
+
+- icals.csv: incoming calls
+
+Data records structured as follows:
+
+CalledNumber, CallDate, CallTime, CallDuration, , ,ChargedNumber
+
+-------------------------------------------------------------------------------
+Dependencies:
+
+* gzip
+
+-------------------------------------------------------------------------------
+Documentation:
+
+Put this script in his own directory. Set all in-script variables. Download accounting data from Alcatel PBX to script working directory. Run.
+ 
+-------------------------------------------------------------------------------
+Installation instructions
+
+Download to his own directory, chmod +x...
+
